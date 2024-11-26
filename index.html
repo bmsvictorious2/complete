@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tech Skill Vocational Institute</h1>
+        <h1>Test No 8</h1>
+        <div class="name-section">
+            <label for="studentName">Enter your name:</label>
+            <input style="height:40px; width: 180px;" type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+
+        <!-- Question 1 (Yes/No using checkboxes) -->
+        <div class="question">
+            <p>1.Predicting whether patient will develop diabetes based on patients medical history is an example of Anomaly detection?</p>
+            <input type="checkbox" id="SetPrimarymetrictoaccuracy" value="Set Primary metric to accuracy.">
+            <label for="Set Primary metric to accuracy.">Yes</label><br>
+            
+            <input type="checkbox" id="EnableExplainbestmodel" value="Enable Explain best model">
+            <label for="Enable Explain best model">No</label>
+            
+        </div>
+        
+        <!-- Question 2 (Dropdown) -->
+        <div class="question">
+            <p>2.When developing an AI system for self driving car, the microsoft for responsible AI should be applied to ensure consistent operation system during unexpected circumstances.</p>
+            <select id="question2">
+                <option value="">--Select an answer--</option>
+                <option value="inclusiveness">Accountability</option>
+                <option value="reliability and safety">Reliability & safety</option>
+                <option value="transparency">Fairness</option>
+                
+            </select>
+        </div>
+          <!-- Question 3 (Dropdown) -->
+        
+          <div class="question">
+            <p>3.Your company is exploring the use of voice recognition technologies in its smart home devices. The company wants
+                to identify any barriers that might unintentionally leave out specific user groups.
+                This an example of which Microsoft guiding principle for responsible AI?</p>
+            <input type="radio" id="Computer" name="workloadAI" value="Computer vision">
+            <label for="Computervision">Inclusiveness</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Machine Learning">
+            <label for="Machine Learning">Fairness</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Artificial Intelligence">
+            <label for="Artificial Intelligence">Accountability</label>
+        </div>
+        
+ <!-- Question 4 (Checkboxes) -->
+
+ <div class="question">
+    <p>4.------is used to generate additional features.</p>
+    <input type="radio" id=" guiding" name="train" value="VALUE1">
+    <label for="fairness">Feature Engineering</label>
+    <BR>
+    <input type="radio" id="guiding" name="train" value="VALUE2">
+    <label for="inclusiveness">Feature Selection</label>
+    <br>
+    <input type="radio" id="guiding" name="train" value="VALUE3">
+    <label for="accountability">Model Training</label>
+</div>
+
+<div class="question">
+    <p>5.An AI solution that is offered different prices for different sale territories is an example of
+    microsoft inclsiveness principle for responsible AI?</p>
+    <select id="question5">
+        <option value="">--Select an answer--</option>
+        <option value="Privacy and security">Yes</option>
+        <option value="Reliability and safety">No</option>
+        
+        
+    </select>
+</div>
+<div class="question">
+    6.<p><img src="process.jpg" alt="">You plan to deploy an Azure Machine Learning model as a service that will be used by client applications.
+        Which three processes should you perform in sequence before you deploy the model? To answer, move the
+        appropriate processes from the list of processes to the answer area and arrange them in the correct order.
+        Select and Place: </p>
+    <input type="radio" id="CNN" name="model" value="CNN">
+    <label for="CNN"><img src="ans.jpg" alt=""></label>
+    
+    <input type="radio" id="RNN" name="model" value="RNN">
+    <label for="RNN"><img src="ans2.jpg" alt=""></label>
+    
+    
+</div>
+
+<div class="question">
+    <p>7.The system must not discriminate based on gender race?</p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="ObjectDetection">Privacy & security</option>
+        
+        <option value="OCR">Fairness</option>
+    </select>
+</div>
+<div class="question">
+    <p>8. Which statement belong to feature selection?</p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="fairness">Spliting a date into month day and year fields.</option>
+        
+        <option value="inclusiveness">Picking temperature and pressure to train a weather model.</option>
+    </select>
+</div>
+<div class="question">
+    <p>9. <img src="fg.jpg" alt="">calculate Recall? </p>
+    <input type="radio" id="CNN" name="AI" value="CNN">
+    <label for="CNN">0.7</label>
+    
+    <input type="radio" id="RNN" name="AI" value="RNN">
+    <label for="RNN">1.0</label>
+    
+    
+</div>
+<div class="question">
+  <p>10.An automated machine learning enable you to specify a dataset and will automatically understand which label to predict?</p>
+    <input type="radio" id="Detect individual objects in an image" name="images" value="Detect individual objects in an image">
+    <label for="Detect individual objects in an image">Yes</label><BR></BR>
+    
+    <input type="radio" id="Assign a label to each pixel in the image" name="images" value="Assign a label to each pixel in the image">
+    <label for="Assign  label to each pixel in the image">No</label><BR></BR>
+   
+    
+</div>
+<div class="question">
+    <div class="question">
+        <p>11.A banking system that predict whether a loan will be repaid is an example of the type of machine learning?</p>
+        <input type="radio" id="Building AI systems that require no human oversight" name="At" value="Building AI systems that require no human oversight">
+        <label for="Building AI systems that require no human oversight">Classification</label><br>
+        
+        <input type="radio" id="standards" name="At" value="standards">
+        <label for="standards">Regression</label>
+        
+</div>
+<div class="question">
+    <p>12:A validation set can be used to verify that all the training data was used to train the model?</p>
+      
+      <input type="radio" id="Elevenlabs" name="image" value="OCR">
+      <label for="Elevenlabs">Yes</label>
+      <input type="radio" id="Elevenlabs" name="image" value="Face detection">
+      <label for="Elevenlabs">No</label>
+      
+      
+  </div>
+  <div class="question">
+    <p>13.Model can be used to predict sale price of auctioned items?</p>
+    <input type="radio" id="NO" name="Am" value="Voxel">
+    <label for="Voxel">Classification</label>
+    
+    <input type="radio" id="Yes" name="Am" value="Pixel">
+    <label for="Pixe">Regression</label>
+    
+    
+</div>
+<div class="question">
+    <p>14.Which two components can you drag onto a canvas in Azure Machine Learning designer? Each correct answer
+        presents a complete solution.</p>
+    <input type="checkbox" id="inclusiveness" value="inclusiveness">
+    <label for="inclusiveness">dataset</label><br>
+    
+    <input type="checkbox" id="opinionatedness" value="opinionatedness">
+    <label for="opinionatedness">compute</label><br>
+    <input type="checkbox" id="reliability and safety" value="reliability and safety">
+    <label for="reliability and safety">module</label>
+    
+</div>
+<div class="question">
+    <p>15. Which one actions are performed during the data ingestion and data preparation stage of an Azure Machine
+        Learning process? </p>
+    <input type="radio" id="NO" name="Angle" value="6">
+    <label for="6">Calculate the accuracy of the model.</label><br>
+    
+    <input type="radio" id="Yes" name="Angle" value="4">
+    <label for="4">Combine multiple datasets.</label>
+    
+    
+</div>
+<div class="question">
+    <p>16:You need to build an app that will read recipe instructions aloud to support users who have reduced vision.
+        Which version service should you use?
+    </p>
+    <input type="radio" id="NO" name="Angl" value="6">
+    <label for="6">Speech</label><br>
+    
+    <input type="radio" id="Yes" name="Angl" value="4">
+    <label for="4">Translator</label>
+    
+    
+</div>
+<div class="question">
+    <p>17.Which statement belong to speech services?</p>
+    <input type="checkbox" id="speech1" value="speech1">
+    <label for="speech1">You can use speech service to transcribe a call to text.</label><br>
+    
+    <input type="checkbox" id="speech2" value="speech2">
+    <label for="speech2">You can use speech services for translate text to text.</label><br>
+    <input type="checkbox" id="speech3" value="speech3">
+    <label for="speech3">you can use speech service to translate the audio of a call to a different language.</label>
+    
+</div>
+<button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
